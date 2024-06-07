@@ -113,6 +113,7 @@ ul a{
     flex-direction: column;
     gap: 32px;
     margin-top: 16px;
+    height: 400px;
 }
 
 .third-sec-container{
@@ -145,4 +146,34 @@ ul a{
 
 .third-sec-text{
     color: #6D747D;
+}
+
+/* 3RD SECTION DONE */
+
+/* 4TH SECTION START */
+
+
+.fourth-section{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 130px;
+    padding-left: 330px;
+    padding-right: 360px;
+}
+
+.quote{
+    font-size: 36px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.by-who{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 24px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
