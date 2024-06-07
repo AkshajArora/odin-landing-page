@@ -177,3 +177,46 @@ ul a{
     font-weight: 700;
     font-style: normal;
 }
+
+/* 4TH SECTION DONE */
+
+/* 5TH SECTION START */
+
+.fifth-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 120px 230px;
+}
+
+.fifth-card{
+    display: flex;
+    flex: 1;
+    gap: 100px;
+    justify-content: space-between;
+    background-color: #3B82F6;
+    padding: 55px 100px;
+    color: white;
+    border-radius: 10px;
+    /* flex-direction: row; */
+}
+
+.fifth-sec-heading{
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.fifth-sec-text{
+    font-size: 18px;
+}
+
+.fifth-sec-btn{
+    background-color: #3B82F6;
+    padding: 8px 32px;
+    border: 3px solid white;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 18px;
+}
