@@ -220,3 +220,18 @@ ul a{
     cursor: pointer;
     font-size: 18px;
 }
+
+/* 5TH SECTION DONE */
+
+/* FOOTER SECTION */
+
+.footer{
+    background-color: #1F2937;
+    color: white;
+    /* font-weight: 700; */
+    font-size: 18px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
