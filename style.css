@@ -11,7 +11,6 @@
 body{
     display: flex;
     flex-direction: column;
-    color: white;
 }
 
  /* HEADER  */
@@ -56,9 +55,9 @@ ul a{
     justify-content: center;
     background-color: #1F2937;
     gap: 73px;
-    height: 400px;
+    height: 375px;
     padding-top: 52px;
-    padding-bottom: 104px;
+    padding-bottom: 72px;
 }
 
 .roboto-font{
@@ -103,4 +102,47 @@ ul a{
     align-items: center;
     background-color: #6D747D;
     border-radius: 10px;
+}
+
+/* HERO SECTION DONE */
+
+/* 3RD SECTION */
+
+.third-section{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-top: 16px;
+}
+
+.third-sec-container{
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+
+.third-sec-heading{
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 170px;
+    text-align: center;
+}
+
+.empty{
+    border: 5px solid #3B82F6;
+    height: 170px;
+    width: 170px;
+    border-radius: 10%;
+}
+
+.third-sec-text{
+    color: #6D747D;
 }
